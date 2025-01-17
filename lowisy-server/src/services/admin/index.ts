@@ -1,0 +1,5 @@
+export * as adminPricingService from './pricing-plan.service'
+export * as adminCategoriesServices from './categories.service'
+export * as adminAuthService from './auth.service'
+export * as adminShopService from './shops.services'
+export * as commonService from './common.service'

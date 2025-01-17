@@ -1,0 +1,21 @@
+import { Knex } from 'knex'
+
+export async function seed(knex: Knex) {
+  await knex('customers').del()
+
+  // Inserts seed entries
+
+  await knex('customers').insert([
+    {
+      id: 1,
+      email: 'abc@gmail.com',
+      password: '1234',
+    },
+    {
+      id: 2,
+      email: 'abc@gmail.com',
+      password: '1234',
+    },
+  ])
+
+}

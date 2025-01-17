@@ -1,0 +1,7 @@
+export * as shopAuthValidator from './auth.validators'
+export * as adminPricingPlanValidator from './pricing-plan.validators'
+export * as adminCategoriesValidator from './categories.validators'
+export * as shopPaymentMethodValidator from './payment-method.validators'
+export * as shopProductValidator from './product.validators'
+export * as shopSettingsValidator from './settings.validators'
+export * as shopContactUsValidator from './contact-us.validators'
